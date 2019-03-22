@@ -4,33 +4,33 @@ import 'package:flutter/material.dart';
 
 List<Task> tasks = [
   new Task(
+      name: "Monitor Mjölnir",
+      category: "Thor",
+      time: "29 April 2011",
+      color: Colors.cyan,
+      completed: true),
+  new Task(
       name: "Monitor the Tesseract",
       category: "Avengers",
-      time: "5pm",
+      time: "27 April 2012",
       color: Colors.orange,
       completed: false),
   new Task(
       name: "Run backup",
       category: "Avengers: Ago of Ultron",
-      time: "3pm",
+      time: "April 13, 2015",
       color: Colors.cyan,
       completed: true),
   new Task(
       name: "Team Captain",
       category: "Captain America:Civil War",
-      time: "2pm",
+      time: "April 12, 2016",
       color: Colors.pink,
       completed: false),
   new Task(
-      name: "Monitor Mjölnir",
-      category: "Thor",
-      time: "12pm",
-      color: Colors.cyan,
-      completed: true),
-  new Task(
-      name: "Teem Meeting",
-      category: "Hangouts",
-      time: "10am",
+      name: "TBD",
+      category: "TBD",
+      time: "tbd",
       color: Colors.cyan,
       completed: true),
 ];
